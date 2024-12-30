@@ -1,0 +1,143 @@
+ <html>
+
+<head>
+
+    <title>Winter Website</title>
+    <style>
+        body {
+            height: 100vh;
+            overflow: hidden;
+            text-align: center;
+            font-family: Arial;
+            background: #dfe3ff;
+        }
+
+        .snowflake {
+            position: absolute;
+            font-size: 30px;
+            top: -30px;
+            animation: fall linear infinite;
+
+        }
+
+        @keyframes fall {
+
+            0% {
+                transform: translateY(0);
+
+            }
+
+            100% {
+                transform: translateY(100vh);
+            }
+        }
+
+        .snowflake:nth-child(1) {
+            left: 10%;
+            animation-duration: 7s;
+
+        }
+
+        .snowflake:nth-child(2) {
+            left: 30%;
+            animation-duration: 3.5s;
+
+        }
+
+        .snowflake:nth-child(3) {
+            left: 50%;
+            animation-duration: 4.5s;
+
+        }
+
+        .snowflake:nth-child(4) {
+            left: 70%;
+            animation-duration: 5s;
+
+        }
+
+        .snowflake:nth-child(5) {
+            left: 90%;
+            animation-duration: 4s;
+
+        }
+
+        img {
+
+            width: 600px;
+            height: 400px;
+            display: block;
+            margin: auto;
+        }
+
+.text span {
+  font-size: 30px;
+  padding: 0 10px;
+  text-transform: uppercase;
+  color: #cdc8b3;
+  animation: zoomup 2s linear infinite;
+  animation-delay: calc(200ms * var(--i));
+}
+
+@keyframes zoomup {
+  0%,
+  100% {
+    color: #fff1c5;
+    filter: blur(1px);
+    text-shadow: 0 0 10px #4d4c40, 0 0 20px #ab9c75, 0 0 30px #a49066,
+      0 0 40px #ffd000, 0 0 60px #ff0000, 0 0 80px #827061, 0 0 100px #ffff00,
+      0 0 120px #00c2ba;
+  }
+
+  5%,
+  95% {
+    filter: blur(0);
+    color: #cdc8b3;
+    text-shadow: none;
+  }
+}
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="snowflake">❊</div>
+    <div class="snowflake">❋</div>
+    <div class="snowflake">❉</div>
+    <div class="snowflake">❇</div>
+    <div class="snowflake">❅</div>
+
+    <h1>Welcome To My Winter Website!</h1>
+    <div class="container">
+        <div class="text">
+          <span style="--i:1">m</span>
+          <span style="--i:2">e</span>
+          <span style="--i:3">r</span>
+          <span style="--i:4">r</span>
+          <span style="--i:5">y</span>
+          <span style="--i:6"> </span>
+          <span style="--i:7">c</span>
+          <span style="--i:8">h</span>
+          <span style="--i:9">r</span>
+          <span style="--i:10">i</span>
+          <span style="--i:11">s</span>
+          <span style="--i:12">t</span>
+          <span style="--i:13">m</span>
+          <span style="--i:14">a</span>
+          <span style="--i:15">s</span>
+        </div>
+      </div>
+
+    
+    <p>Have a safe holiday!!!!!!!!!! Here's the CUTEST (and I mean CUTEST) winter cat photo EVERRRR</p>
+    <img
+        src="https://media.istockphoto.com/id/1358847954/photo/cute-little-gray-kitten-in-a-blue-hat-on-a-gentle-blue-christmas-tree-background-happy-new.jpg?s=612x612&w=0&k=20&c=AzpYzmtB8k9WRllXIQRJAhCPB5WXPGH3gyH8hrU3SBw=">
+
+    <p>SOCUTE</p>
+    <a href="https://santatracker.google.com/">THE LINK TO NOTHING RELATED WITH THIS ADORABLE THING
+        AAAAAAAAAAURGHHHHHHHHHHHHHHHHHHHHHh (santa tracker...:P) </a>
+</body>
+
+</html>
